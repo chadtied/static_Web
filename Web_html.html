@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head title="login page">
+    <meta charset="utf-8">
+    <link href="./Web_css.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="background" src="./bg.jpg">
+
+        <div class="position1">
+            <div class="mode1">
+                <img class="circle1" src="./circle1.png">
+                <div class="login">
+                    <ul class="login-user" style="list-style-type: none;">
+                        <li><span><b>Username</b></span><input></li>
+                        <li><span><b>Password</b></span><input></li>
+                    </ul>
+                    <ul class="login-way">
+                        <li><img src="./apple.png"></li>
+                        <li><img src="./google.png"></li>
+                        <li><img src="./fb.png"></li>
+                    </ul>
+                </div>
+                <img id="push" onclick="mouseclick()" onmouseover="mouseover()" onmouseleave="mouseleave()" src="./button.png">
+            </div>
+        </div>
+
+        <div class="mode2">
+            <img class="circle2" src="./circle1.png">
+        </div>
+        
+        <div class="mode3">
+            <ul style="list-style-type: none;">
+                <li><img src="./circle2.png"></li>
+                <li><img src="./circle2.png"></li>
+                <li><img src="./circle2.png"></li>
+            </ul>
+        </div>
+
+        <div class="mode4">
+            <img src= "./click1.png">
+            <img src= "./click2.png">
+            <img src= "./click3.png">
+            <img src= "./click4.png">
+        </div>
+        
+    </div>
+    <script src="./Web_js.js"></script>
+    <!--<script>
+        $(document).ready(function(){
+            $("#push").mouseover(function(){
+                $("body>div>div>div>img.circle1").first().css("animation","rotation1 4s infinite linear");
+            });
+            $("#push").mouseleave(function(){
+                $("body>div>div>div>img.circle1").first().css("animation","rotation1 20s infinite linear");
+            });
+        });
+    </script>-->
+</body>
+
+</html>
